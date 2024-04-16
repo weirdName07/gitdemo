@@ -1,0 +1,29 @@
+create a new repository on the command line
+-echo "# gitdemo" >> README.md
+-git init
+-git add index.html
+
+-git commit -m "first commit"
+-git branch -M main
+-git remote add origin https://github.com/weirdName07/gitdemo.git
+-git push -u origin main
+---------------------------------------------------------------------------------------
+push an existing repository from the command line
+-git remote add origin https://github.com/weirdName07/gitdemo.git
+-git branch -M main
+-git push -u origin main
+---------------------------------------------------------------------------------------
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'CSELAB6@DESKTOP-74UGC2N.(none)')
+---------------------------------------------------------------------------------------
